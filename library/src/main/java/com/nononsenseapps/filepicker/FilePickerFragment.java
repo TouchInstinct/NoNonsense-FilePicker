@@ -27,7 +27,7 @@ import java.util.Locale;
  */
 public abstract class FilePickerFragment extends AbstractFilePickerFragment<File> {
 
-    private static final String[] extensions = new String[]{".doc", ".docx", ".xlsx", ".xls", ".png", ".jpg", ".tif", ".tiff", ".pdf", ".jpeg"};
+    private static final String[] extensions = new String[]{".doc", ".docx", ".xlsx", ".xls", ".png", ".jpg", ".tif", ".tiff", ".pdf", ".jpeg", ".ppt"};
 
     protected static final int PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 1;
     protected boolean showHiddenItems = false;
